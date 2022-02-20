@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js") 
+block style 
+    style 
+        include ../static/style.css 
+block content
+    section#intro 
+        | Welcome to Jayam's Dance Academy
+    section#mission 
+        h2  Our Mission
+        div.card-container
+            div.card 
+                h3 Dance perfection
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/logo 4.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. In voluptatibus eveniet rerum at sed? Repudiandae consequuntur nisi commodi ipsam repellendus! Perferendis  .
+            div.card 
+                h3 Dance the way you like 
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/logo.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. In voluptatibus eveniet rerum at sed? Repudiandae consequuntur nisi commodi ipsam repellendus! Perferendis nulla maxime rerum? Earum  .
+            div.card 
+                h3 Expert Tutors
+                div.card-box 
+                    div.card-img 
+                        img(src="../static/img/logo 5.png")
+                    div.card-content 
+                        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. In voluptatibus eveniet rerum at sed? Repudiandae consequuntur nisi commodi ipsam repellendus! Perferendis nulla maxime rerum? Earum  .
+    section#sponsor 
+        h2  Our Sponsors
+        div.sponsor-group
+            div#sponsor1
+                img(src="../static/Img/logo1.png")
+            div#sponsor2
+                img(src="../static/Img/logo2.png")
+            div#sponsor3
+                img(src="../static/Img/logo3.png")
+            div#sponsor4
+                img(src="../static/Img/logo4.png")
+    

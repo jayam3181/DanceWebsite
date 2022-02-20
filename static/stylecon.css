@@ -1,0 +1,34 @@
+#contact h1{
+    text-align: center;
+    margin: 6px 0px;
+}
+#contact{
+    height: 76vh;
+    margin: 32px 0px;
+}
+.con-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con-form input{
+    display: block;
+    width: 43%;
+    padding: 5px;
+    margin: 6px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+#btn{
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 4px;
+    padding: 3px;
+    width: 8%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: #232526;
+}
